@@ -18,6 +18,7 @@ set gdefault
 set ruler
 set backspace=2
 set nocompatible
+set noerrorbells
 colorscheme delek
 autocmd BufWritePost $MYVIMRC source $MYVIMRC
 autocmd InsertLeave * se nocul
