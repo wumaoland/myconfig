@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/vim_plug/plugged')
     Plug 'crusoexia/vim-monokai'
     " copilot 
     Plug 'github/copilot.vim'
