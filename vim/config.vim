@@ -1,10 +1,8 @@
-filetype plugin on
 " 设置为双字宽显示(会影响界面渲染，所以关掉)
 " set ambiwidth=double
 " 防止vim背景颜色错误(现在没有这个问题)
 " set t_ut=
 " 高亮匹配括号
-set showmatch
 " 匹配括号显示时间
 set matchtime=1
 " 不占用最后的一个cmd框显示现在的模式
@@ -12,26 +10,18 @@ set noshowmode
 " 取消警告声音
 set novisualbell
 set noerrorbells
-set report=0
 " 搜索不区分大小写
 set ignorecase
 set nobackup
 set autoread
 set nocompatible
 set backspace=2 "能使用backspace回删
-set showcmd
-set hlsearch
-syntax on "语法检测
 
 " Tab settings
-set ts=4
-set softtabstop=4
-set shiftwidth=4
 set expandtab
 
 " indent method
 " set cindent
-set smartindent
 
 " Set Mouse
 " set mouse=a
@@ -44,14 +34,9 @@ set shortmess=atI
 set clipboard+=unnamed
 
 " VIM Encoding Method
-set encoding=utf-8
-set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936,latin1
-set fileencoding=gb2312
-set termencoding=utf-8
 
 set signcolumn=yes
 set cmdheight=1
-set ruler
 set nu
 set cursorline
 
